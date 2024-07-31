@@ -1,0 +1,13 @@
+what is a socket?
+allows programs to communicate with each other using unix file descriptors
+
+types of sockets(main ones)?
+Datagram sockets and Stream sockets
+- stream: bidirrectional, serial (telnet and HTML page retrival), uses
+          TCP to make sure data arrives sequential and error free
+- Datagram: may arrive out of order or packets missing, use IP and UDP (user Datagram protocol)
+            , packet loss is accepetable as speed is gained
+
+
+data types in socket programming:
+- int: socket descriptors
